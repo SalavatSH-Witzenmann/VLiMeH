@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VLiMeH"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="VLiMeH" Height="600" Width="900">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="334*"/>
+            <ColumnDefinition Width="113*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="545*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+            <Button Content="File" MinWidth="55"/>
+            <Button Content="Edit" MinWidth="55"/>
+            <Button Content="View" MinWidth="55"/>
+            <Button Content="Project" MinWidth="55"/>
+            <Button Content="Build" MinWidth="55"/>
+            <Button Content="Tools" MinWidth="55"/>
+            <Button Content="Window" MinWidth="55"/>
+            <Button Content="Help" MinWidth="55"/>
+        </StackPanel>
+        <DockPanel Grid.Row="0" Grid.Column="1">
+            <Button Content="Spare button1" DockPanel.Dock="Left"/>
+            <Button Content="Spare button2" DockPanel.Dock="Right"/>
+        </DockPanel>
     </Grid>
 </Window>
