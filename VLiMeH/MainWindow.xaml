@@ -5,29 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VLiMeH"
         mc:Ignorable="d"
-        Title="VLiMeH" Height="600" Width="900">
+        Title="VLiMeH" Height="650" Width="950">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="334*"/>
-            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="464*"/>
+            <ColumnDefinition Width="279*"/>
+            <ColumnDefinition Width="201*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="26*"/>
-            <RowDefinition Height="545*"/>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="297*"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
-            <Button Content="File" MinWidth="55"/>
-            <Button Content="Edit" MinWidth="55"/>
-            <Button Content="View" MinWidth="55"/>
-            <Button Content="Project" MinWidth="55"/>
-            <Button Content="Build" MinWidth="55"/>
-            <Button Content="Tools" MinWidth="55"/>
-            <Button Content="Window" MinWidth="55"/>
-            <Button Content="Help" MinWidth="55"/>
-        </StackPanel>
-        <DockPanel Grid.Row="0" Grid.Column="1">
-            <Button Content="Spare button1" DockPanel.Dock="Left"/>
-            <Button Content="Spare button2" DockPanel.Dock="Right"/>
-        </DockPanel>
+        <Menu VerticalAlignment="Center" FontSize="16">
+            <MenuItem Header="File"/>
+            <MenuItem Header="Edit"/>
+            <MenuItem Header="View"/>
+            <MenuItem Header="Project"/>
+            <MenuItem Header="MasterTools"/>
+            <MenuItem Header="Tools"/>
+            <MenuItem Header="Windows"/>
+            <MenuItem Header="Help"/>
+        </Menu>
+        <Menu VerticalAlignment="Center" FontSize="16" Grid.Column="2">
+            <MenuItem Header="DopButton" Background="Yellow"/>
+            <MenuItem Header="DopButton22" Background="Yellow"/>
+        </Menu>
     </Grid>
 </Window>
