@@ -27,7 +27,7 @@
             <MenuItem Header="Help"/>
         </Menu>
         <Menu VerticalAlignment="Center" FontSize="16" Grid.Column="2">
-            <MenuItem Header="DopButton" Background="Yellow"/>
+            <MenuItem Header="DopButton" Background="Brown"/>
             <MenuItem Header="DopButton22" Background="Yellow"/>
         </Menu>
     </Grid>
