@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace VLiMeH
 {
-    abstract class GObject
+    class Flange : GObject
     {
-        private Int32 ID;
-        public Int32 id { get; set; }
 
     }
 }
